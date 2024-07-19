@@ -3,7 +3,7 @@ import { useState } from "react"
 const Estates=()=>{
 
     tareas=["tareas 1","tareas 2","tareas 3"]
-    const [datos,setDatos]=useState=([])
+    const [datos,setDatos]=useState([])
 
     const [NuevaTarea, setNuevatarea]=useState("")
 

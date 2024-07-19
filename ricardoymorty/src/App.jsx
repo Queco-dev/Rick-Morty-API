@@ -17,7 +17,7 @@ function App() {
     <>
    <h1><Encabezado/></h1>
 
-<div className= "guia">
+
 
    <button><h1>GO!</h1></button>
 
@@ -26,12 +26,12 @@ function App() {
     <li><button onClick={()=>setPagina("Personajes")}>Personajes</button></li>
     <li><button>Ubicaciones</button></li>
    </ul> */}
-</div>
+
 
     {/* {secction==="Personajes"? <Personajes/>: undefined} */}
 
 
-    <Estates/>
+    {/* <Estates/> */}
 
 
 
