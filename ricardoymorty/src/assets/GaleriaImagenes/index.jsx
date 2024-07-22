@@ -8,6 +8,10 @@ const Galeria=()=>{
 
     const [indice,setIndice]=useState(0)
 
+    // handleImagenes=()=>{
+
+    // }
+
 
 
 
@@ -36,7 +40,7 @@ const Galeria=()=>{
     return(
         <>
 
-  
+        
        
                   
                 

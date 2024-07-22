@@ -13,6 +13,7 @@ function App() {
 
  // const [pagina,setPagina]=useState("")
 
+ const [section,setSection]=useState("usuarios")
 
 
 
@@ -35,28 +36,41 @@ function App() {
 
 
     {/* <Estates/> */}
-    
-      
-   <ul>
-    <li><a href="#Usuarios">Usuarios</a></li>
-    <li><a href="#Contacto"></a>Contacto</li>
+    <main className="container">
+      <header className="header">
+        <nav>
+          <ul>
+            <li><button>Usuarios</button></li>
+            <li><button>Contacto</button></li>
+          </ul>
+        </nav>
+      </header>
+   
+   <ul className="indice">
+    <li><a href="#usuarios">Usuarios</a></li>
+    <li><a href="#contacto">Contacto</a></li>
 
    </ul>
-   <Usuarios/>
-
-   <Email/>
-      
- 
-
    
 
+      {(section == "contacto") && <Email id="contacto"/> }
+      {(section == "usuarios") &&  <Usuarios id="usuarios"/> }
+  
 
 
+  
 
-
+   
+      
+   </main>
+      
 
     </>
   )
 }
 
 export default App
+
+
+//container min-width: 80vw;
+//header ul{list-style-type:none   display:flex  gap:5px margin y paddin cero}
