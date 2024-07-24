@@ -40,8 +40,8 @@ function App() {
       <header className="header">
         <nav>
           <ul>
-            <li><button>Usuarios</button></li>
-            <li><button>Contacto</button></li>
+            {/* <li><button onClick={setSection("usuarios")}>Usuarios</button></li>
+            <li><button onClick={setSection("contacto")}>Contacto</button></li> */}
           </ul>
         </nav>
       </header>
