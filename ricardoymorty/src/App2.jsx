@@ -3,6 +3,7 @@ import Productos from './assets/components2/Productos'
 // import Galeria from './assets/indexPrueba'
 // import GaleriaImagenes from './assets/GaleriaImagenes/indexPrueba'
 import Descripcion from './assets/components2/Descripcion'
+import BuenosDias from './assets/components2/BuenosDias'
 
 import './App.css'
 
@@ -18,6 +19,7 @@ const App2=()=>{
 
 
         <h1>soy la App2 </h1>
+        <BuenosDias/>
         <Productos id="productos"/>
         <Descripcion id="galeria"/>
 

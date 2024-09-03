@@ -58,7 +58,7 @@ useEffect( ()=>{
             return(
                 <>
                 <li key={cosas.id}><b>Producto:</b>{cosas.title}</li>
-                {/* <img src={cosas.image} alt={cosas.title} /> */}
+                <img className="img" src={cosas.image} alt={cosas.title} />
                 <>
  
         </>

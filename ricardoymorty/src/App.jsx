@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Encabezado from './assets/components/TituloMorti'
 import { Usuarios } from './assets/components1/Usuarios'
 import Email from './assets/components1/Email'
+import BuenosDias from './assets/components2/BuenosDias'
 
 import './App.css'
 import './CSS/usuarios.css'
