@@ -41,8 +41,8 @@ function App() {
       <header className="header">
         <nav>
           <ul>
-            {/* <li><button onClick={setSection("usuarios")}>Usuarios</button></li>
-            <li><button onClick={setSection("contacto")}>Contacto</button></li> */}
+            <li><button onClick={()=>{setSection("usuarios")}}>Usuarios</button></li>
+            <li><button onClick={()=>{setSection("contacto")}}>Contacto</button></li>
           </ul>
         </nav>
       </header>
@@ -54,8 +54,8 @@ function App() {
    </ul>
    
 
-      {(section == "contacto") && <Email id="contacto"/> }
-      {(section == "usuarios") &&  <Usuarios id="usuarios"/> }
+      {(section == "usuarios") && <Email id="contacto"/> }
+      {(section == "contacto") &&  <Usuarios id="usuarios"/> }
   
 
 
